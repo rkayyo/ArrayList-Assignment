@@ -7,9 +7,10 @@ class Question2 {
         int smallest = nums.get(0);
         for(int i = 0; i < nums.size(); i++){
             if(nums.get(i) < smallest){
-             nums.get(i) = smallest;   
+             smallest = nums.get(i);   
             }
         }
+        nums.remove(smallest);
     }
   
     public static void main (String[] args) {

@@ -10,8 +10,6 @@ class Question1 {
         for(int i = myList.size() - 1; i > 0; i--){
             answer.add(myList.get(i));
         }
-        
-        
         return answer;
     }
     
